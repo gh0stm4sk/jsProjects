@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    height: 10vh;
+}
+
+.button{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.button button{
+    border-radius: 5px;
+    padding: 4px;
+    margin: auto;
+}
+
+.button button:hover{
+    background-color: black;
+    color: white;
+}
